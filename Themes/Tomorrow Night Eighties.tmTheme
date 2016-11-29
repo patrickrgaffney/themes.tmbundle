@@ -145,6 +145,8 @@
 			<string>keyword, storage, storage.type, entity.name.tag.css, markup.list</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#CC99CC</string>
 			</dict>
