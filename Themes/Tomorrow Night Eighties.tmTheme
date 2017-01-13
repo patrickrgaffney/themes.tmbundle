@@ -116,7 +116,7 @@
 			<key>name</key>
 			<string>Function, Markup Bold</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function.any-method.c, markup.bold</string>
+			<string>entity.name.function, meta.function.any-method.c, markup.bold, meta.function-call</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
