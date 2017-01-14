@@ -79,11 +79,24 @@
 			<key>name</key>
 			<string>Class, Support, Markup Code</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class, markup.raw</string>
+			<string>entity.name.class, entity.name.type.class, markup.raw</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#FFCC66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-In Class, Type (Support)</string>
+			<key>scope</key>
+			<string>support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#FFCC66</string>
 			</dict>
