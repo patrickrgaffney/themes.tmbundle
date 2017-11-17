@@ -129,7 +129,7 @@
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit, constant.other</string>
+			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit, constant.other, markup.raw.inline</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
