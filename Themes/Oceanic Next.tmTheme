@@ -309,7 +309,7 @@
 			<key>name</key>
 			<string>Decorators</string>
 			<key>scope</key>
-			<string>tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js</string>
+			<string>tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js, markup.italic</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
