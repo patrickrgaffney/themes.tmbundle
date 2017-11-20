@@ -153,7 +153,7 @@
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter</string>
+			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, variable.other.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -164,7 +164,7 @@
 			<key>name</key>
 			<string>Sub-methods</string>
 			<key>scope</key>
-			<string>entity.name.module.js, variable.import.parameter.js, variable.other.class.js</string>
+			<string>entity.name.module.js, variable.import.parameter.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
