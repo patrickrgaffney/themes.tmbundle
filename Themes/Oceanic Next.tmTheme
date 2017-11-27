@@ -81,7 +81,7 @@
 			<key>name</key>
 			<string>Tag, Property</string>
 			<key>scope</key>
-			<string>entity.name.tag, entity.name.section, meta.tag.sgml, markup.deleted.git_gutter, meta.variable.other.property</string>
+			<string>entity.name.tag, entity.name.section, meta.tag.sgml, markup.deleted.git_gutter, meta.variable.other.property, meta.object.member, variable.other.property</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -125,7 +125,7 @@
 			<key>name</key>
 			<string>String, Symbols, Inherited Class, Markup Heading</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
+			<string>string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js, meta.class.extends variable.other.readwrite</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -138,7 +138,7 @@
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, variable.other.class</string>
+			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, variable.other.class, entity.name.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -182,13 +182,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>meta.method.js</string>
+			<string>Constructors</string>
 			<key>scope</key>
-			<string>meta.class-method.js entity.name.function.js, variable.function.constructor</string>
+			<string>variable.function.constructor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D8DEE9</string>
+				<string>EC5F67</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Methods</string>
+			<key>scope</key>
+			<string>meta.class-method.js entity.name.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6699CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -199,7 +210,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BB80B3</string>
+				<string>#F99157</string>
 			</dict>
 		</dict>
 		<dict>
